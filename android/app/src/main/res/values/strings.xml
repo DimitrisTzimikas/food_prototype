@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">food_prototype</string>
+    <string name="app_name">Food App</string>
+    <string name="splash_screen_image">splash_screen_image</string>
+    <string name="text_view">Food App</string>
 </resources>
