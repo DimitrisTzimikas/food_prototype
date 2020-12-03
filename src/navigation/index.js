@@ -2,7 +2,7 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 /* Local Files */
-import BottomTabs from './tabs/Bottom.tab';
+import BottomTabs from './tabs/Bottom.tab.js';
 
 const AppNavigation = () => {
   return (

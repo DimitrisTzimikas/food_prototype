@@ -1,5 +1,5 @@
 /* Local Files */
-import {languageTag} from '../../utils/I18n';
+import {languageTag} from '../../utils/I18n.js';
 
 /*  Types */
 export const UPDATE_LANGUAGE = 'update_language';

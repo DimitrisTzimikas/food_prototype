@@ -14,8 +14,8 @@ import SplashScreen from 'react-native-splash-screen';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import {v4 as uuid} from 'uuid';
 /* Local Files */
-import colors from '../theme/colors';
-import {setI18nConfig} from '../utils/I18n';
+import colors from '../theme/colors.js';
+import {setI18nConfig} from '../utils/I18n.js';
 import {LocalizationContext} from '../redux/store.js';
 import {getLanguage} from '../redux/ducks/language.js';
 

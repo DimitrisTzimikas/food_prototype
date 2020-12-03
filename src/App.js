@@ -7,7 +7,7 @@ import {PersistGate} from 'redux-persist/integration/react';
 /* Local Files */
 import {store, persistor, LocalizationContext} from './redux/store';
 import AppNavigation from './navigation/index.js';
-import {I18n, languageTag} from './utils/I18n';
+import {I18n, languageTag} from './utils/I18n.js';
 
 enableScreens();
 

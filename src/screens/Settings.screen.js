@@ -4,7 +4,7 @@ import {StyleSheet, View, Button, Text} from 'react-native';
 import {useDispatch} from 'react-redux';
 import RNRestart from 'react-native-restart';
 /* Local Files */
-import {changeLanguage} from '../redux/ducks/language';
+import {changeLanguage} from '../redux/ducks/language.js';
 import {LocalizationContext} from '../redux/store.js';
 
 const SettingsScreen = () => {
