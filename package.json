@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "android:clean": "cd android && gradlew clean",
     "android:release": "react-native run-android --variant=release",
-    "reverse": "adb reverse tcp:8081 tcp:8081"
+    "reverse": "adb reverse tcp:8081 tcp:8081",
+    "bundle-size": "yarn run react-native-bundle-visualizer"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.13.2",
@@ -47,6 +48,7 @@
     "eslint": "^7.14.0",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.64.0",
+    "react-native-bundle-visualizer": "^2.2.1",
     "react-test-renderer": "16.13.1"
   },
   "jest": {
