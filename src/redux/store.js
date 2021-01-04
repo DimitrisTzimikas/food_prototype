@@ -16,7 +16,6 @@ const config = {
 const persistedReducer = persistReducer(config, reducers);
 const store = createStore(persistedReducer, composeWithDevTools());
 const persistor = persistStore(store);
-
 const LocalizationContext = createContext();
 
 export {store, persistor, LocalizationContext};
